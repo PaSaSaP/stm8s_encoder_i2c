@@ -17,7 +17,7 @@ void buffAdd(uint8_t c);
 
 void setup() {
   Wire_beginSlave(0x11);
-  Wire_setClock(400000);
+  // Wire_setClock(400000);
   Wire_onRequest(onRequest);
 
   // Set encoder pins as inputs
