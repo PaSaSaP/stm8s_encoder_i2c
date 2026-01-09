@@ -1,0 +1,6 @@
+{
+    "configuration": "serial=minimal,analog=no_in_out",
+    "board": "sduino:stm8:stm8sblue",
+    "sketch": "stm8s_encoder_i2c.ino",
+    "output": "./build"
+}

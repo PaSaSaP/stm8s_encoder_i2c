@@ -1,0 +1,5 @@
+# source code not messed with that include
+CompileFlags:
+  Add:
+    - -include
+    - Arduino.h
